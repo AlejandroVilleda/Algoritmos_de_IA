@@ -1,63 +1,63 @@
-#include "Busqueda_amplitud.h"
+#include "Busqueda_amplitud_str.h"
 
 // MÉTODOS PRINCIPALES
 // Métodos getters: retornan valores
-vector<int> Nodo:: get_Datos()
+string Nodo_str:: get_Datos()
 {
     return this-> Datos;
 }
 
-vector<Nodo *> Nodo:: get_Hijos()
+vector<Nodo_str *> Nodo_str:: get_Hijos()
 {
     return this-> Hijos;
 }
 
-Nodo * Nodo:: get_Padre()
+Nodo_str * Nodo_str:: get_Padre()
 {
     return this-> Padre;
 }
 
-float Nodo:: get_Costo() const
+float Nodo_str:: get_Costo() const
 {
     return this->Costo;
 }
 
 // Métodos setters: asignan valores
-void Nodo::  set_Datos(vector<int> Dato_nuevo)
+void Nodo_str::  set_Datos(string Dato_nuevo)
 {
     this-> Datos = Dato_nuevo;
 }
 
-void Nodo:: set_Hijos(vector<Nodo *> Hijos_nuevos)
+void Nodo_str:: set_Hijos(vector<Nodo_str *> Hijos_nuevos)
 {
     this-> Hijos = Hijos_nuevos;
 
 // Asignamos el valor del padre
     if(!this-> Hijos.empty())
     {
-        for(Nodo *Iterador: Hijos_nuevos)
+        for(Nodo_str *Iterador: Hijos_nuevos)
             Iterador-> Padre = this;
     }
 }
 
-void Nodo:: set_Padre(Nodo *Nuevo_padre)
+void Nodo_str:: set_Padre(Nodo_str *Nuevo_padre)
 {
     this-> Padre = Nuevo_padre;
 }
 
-void Nodo:: set_Costo(float Nuevo_costo)
+void Nodo_str:: set_Costo(float Nuevo_costo)
 {
     this-> Costo = Nuevo_costo;
 }
 
 // MÉTODOS SECUNDARIOS
-bool Nodo:: Igual(Nodo nodo)
+bool Nodo_str:: Igual(Nodo_str Nodo_str)
 {
-    if(this-> get_Datos() == nodo.get_Datos()){return true;}
+    if(this-> get_Datos() == Nodo_str.get_Datos()){return true;}
     else{return false;}
 }
 
-bool Nodo:: En_lista(queue<Nodo *> Lista_nodos)
+bool Nodo_str:: En_lista(queue<Nodo_str *> Lista_nodos)
 {
     bool En_la_lista;
 
