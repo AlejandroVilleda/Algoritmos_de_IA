@@ -1,0 +1,3 @@
+D:/Programacion/C++/IA/Libro de IA/BFS/cmake-build-debug/CMakeFiles/BFS.dir
+D:/Programacion/C++/IA/Libro de IA/BFS/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programacion/C++/IA/Libro de IA/BFS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
