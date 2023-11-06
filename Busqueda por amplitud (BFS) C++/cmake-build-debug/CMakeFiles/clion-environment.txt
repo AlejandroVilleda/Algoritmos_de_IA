@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\MinGW-x64-posix-seh\mingw64
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/JetBrains/CLion 2022.2.3/bin/ninja/win/ninja.exe

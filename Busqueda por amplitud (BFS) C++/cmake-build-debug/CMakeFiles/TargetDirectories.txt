@@ -1,0 +1,3 @@
+D:/Programacion/Lenguaje C++/FIA/Algoritmos_de_IA/Busqueda por amplitud (BFS) C++/cmake-build-debug/CMakeFiles/BFS.dir
+D:/Programacion/Lenguaje C++/FIA/Algoritmos_de_IA/Busqueda por amplitud (BFS) C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programacion/Lenguaje C++/FIA/Algoritmos_de_IA/Busqueda por amplitud (BFS) C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
